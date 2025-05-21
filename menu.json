@@ -1,0 +1,74 @@
+{
+   "menu": [
+     { 
+      "id": 1,
+      "nombre": "Inicio",
+      "enlace": "/",
+      "submenu": null
+   },
+     { 
+      "id": 2,
+      "nombre": "Sobre Nosotros",
+      "enlace": "/sobre-nosotros",
+      "submenu": null
+   },
+   { 
+      "id": 3, 
+      "nombre": "Servicios", 
+      "enlace": "/servicios",
+      "submenu": [
+         {
+            "id":1,
+            "nombre": "Lavado del pelo",
+            "enlace": "/servicios/lavado"
+         },{
+            "id":2,
+            "nombre": "Corte de pelo",
+            "enlace": "/servicios/corte"
+         },{
+            "id":3,
+            "nombre": "Manicura",
+            "enlace": "/servicios/manicura"
+         },{
+            "id":4,
+            "nombre": "Pedicura",
+            "enlace": "/servicios/pericura"
+         },
+         {
+            "id":5,
+            "nombre": "Maquillaje",
+            "enlace": "/servicios/maquillaje"
+         }
+      ]
+   },
+   {
+      "id": 4,
+      "nombre": "Contacto",
+      "enlace": "/contacto",
+      "submenu": [
+         {
+            "id":1,
+            "nombre": "WhatsApp",
+            "enlace": "/contacto/wa"
+         },{
+            "id":2,
+            "nombre": "Instagram",
+            "enlace": "/contacto/ig"
+         },{
+            "id":3,
+            "nombre": "Facebook",
+            "enlace": "/contacto/f"
+         },{
+            "id":4,
+            "nombre": "Youtube",
+            "enlace": "/contacto/y"
+         },{
+            "id":5,
+            "nombre": "Tik Tok",
+            "enlace": "/contacto/y"
+         }
+      ]
+   }
+   ]
+ }
+ 

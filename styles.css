@@ -1,0 +1,130 @@
+/* Estilo básico para el menú */
+.menu {
+background-color: #71b3fa;
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.menu > li {
+position: relative;
+margin-right: 20px;
+}
+
+.menu a {
+display: block;
+padding: 10px;
+text-decoration: none;
+color: #333;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+background-color: #007BFF;
+color: white;
+}
+
+/* Estilo para submenús */
+.submenu {
+list-style-type: none;
+padding: 0;
+margin: 5;
+position: absolute;
+top: 100%;
+left: 0;
+display: none;
+min-width: 180px;
+background-color: #f1f1f1;
+border-radius: 4px;
+}
+
+.submenu li {
+width: 100%;
+}
+
+.menu > li:hover > .submenu {
+display: block;
+}
+
+.submenu a {
+padding: 10px;
+background-color: #e0e0e0;
+}
+
+.submenu a:hover {
+background-color: #007BFF;
+color: white;
+}
+
+#btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#menuItems {
+    margin-bottom: 20px;
+}
+
+.menu-item, .submenu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-item input, .submenu-item input {
+    margin-right: 10px;
+    padding: 5px;
+    flex: 1;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
